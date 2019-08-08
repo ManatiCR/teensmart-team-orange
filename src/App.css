@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Quicksand Book';
+  src: url(assets/Quicksand_Book.otf);
+}
+
+@font-face {
+  font-family: 'Quicksand Bold';
+  src: url(assets/Quicksand_Bold.otf);
+}
+
+.App-title{
+  color: #b10054;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #b93049;
+}
+
+.App {
+  font-family: 'Quicksand Book';
+}
+
+section {
+  margin: 0 2% 1rem;
+}
+
+.navbar {
+  background-color: #90c2d1;
+  font-family: 'Quicksand Bold';
+}
+
+.nav-link {
+  color: #333344 !important;
+}
+
+.nav-link:hover {
+  color: black !important;
+}
+/*
+.jumbotron {
+  padding: 0;
+}
+
+.jumbotron-photo {
+  padding: 0;
+  margin: auto;
+}
+
+.jumbotron-text {
+  padding: 1rem 1.5rem;
+  margin: auto;
+}
+
+.jumbotron-text p {
+  margin: 0;
+}*/
+
+.carousel-title {
+  padding: 2rem 2rem 0rem;
+}
+
+.carousel {
+  padding: 2rem 12%;
+}
+
+.carousel-icon {
+  color: #336384;
+  font-family: 'Quicksand Bold';
+  font-size: 3rem;
+}
+
+.carousel-indicators li {
+  background-color: #336384;
+}
+
+.volunteer-type {
+  min-width: 20%;
+  max-width: 50%;
+  width: 200px;
+  background: none;
+  margin: 0 auto;
+  border: none;
+}
+
+.button {
+  background-color: #336384 !important;
+}
+
+a:link {
+  color: #336384;
+}
+
+.active-button {
+  background-color: #033354 !important;
+}
+
+.logo {
+  max-height: 150px;
+}
+
+.logo-small {
+  max-height: 75px;
+}
+
+.social-button {
+  height: 32px;
+  /*margin-left: 1rem;*/
+}
+
+.question {
+  color: #336384 !important;
+  font-family: 'Quicksand Bold';
+  text-align: left;
+}
+
+footer {
+  padding: 1rem 4%;
+}
+
+footer p {
+  margin: 0;
+  font-family: 'Quicksand Bold';
+}
+
+.contact-links {
+  font-size: 0.9rem;
+}
+
+.benefit {
+  text-align: center;
+  font-family: 'Quicksand Bold';
+  width: 11rem;
+  margin: 0 auto;
+  border: none;
+}
+
+.benefit-image {
+  width: 100%;
+  margin: auto;
+}
+
+/* Start Header Styles */
+
+.language {
+  background-color: white !important;
+  color: black;
+}
+
+.languageSelector .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: black;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.languageSelector .btn {
+  border-style: none;
+}
+
+.languageSelector .btn-primary.focus, .btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.languageSelector .btn-primary:hover, .btn-primary.nav-link:hover {
+  color: black;
+}
+
+/* End Header Styles */
+
+/* Start Nav Styles */
+
+.mr-auto .nav-link:hover {
+color: white !important;
+background-color: #336384 !important;
+}
+
+.navbar {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.nav-link {
+  margin: 0px !important;
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
+}
+
+.navbar .button {
+  color: white;
+}
+
+/* End Nav Styles */

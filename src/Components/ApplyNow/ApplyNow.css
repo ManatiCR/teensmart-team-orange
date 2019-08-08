@@ -1,0 +1,27 @@
+
+  
+  .flex {
+    display: flex
+  }
+  
+  .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      align-items: center;
+  }
+  .applyNow-btn {
+      background-color: #336384 !important;
+      height: 3.5rem !important;
+      width: 15rem !important;
+      border-radius: 5px !important;
+      color: white !important;
+      display: inline-block !important;
+      font-size: 1.1rem !important;
+      align-content: flex-end;
+
+  }
+ .ApplyNow-tittle-text{
+      padding-left:10% 
+  }
+  

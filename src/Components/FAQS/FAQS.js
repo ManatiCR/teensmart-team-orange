@@ -10,7 +10,7 @@ export default class FAQS extends React.Component {
 	}
 
 	componentDidMount() {
-		axios.get('http://teensmart.local/api/faq?_format=json')
+		axios.get('http://dev-teensmart-team-orange.pantheonsite.io/api/faq?_format=json')
 			.then(response => {
 				this.setState({faqs: response.data})
 			})

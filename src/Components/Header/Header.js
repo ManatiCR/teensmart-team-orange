@@ -31,12 +31,12 @@ export default class Header extends React.Component {
 							if (value.logo_secondary){
 								return(
 								<div key={index}>
-									<Image className="logo" src={`http://teensmart.local${value.logo_primary}`} href="#" alt="TeenSmart" />
-									<Image className="logo" src={`http://teensmart.local${value.logo_secondary}`} href="#" alt="TeenSmart" />
+									<Image className="logo" src={`http://dev-teensmart-team-orange.pantheonsite.io${value.logo_primary}`} href="#" alt="TeenSmart" />
+									<Image className="logo" src={`http://dev-teensmart-team-orange.pantheonsite.io${value.logo_secondary}`} href="#" alt="TeenSmart" />
 								</div>
 							)
 							}else{
-								return(<Image className="logo" src={`http://teensmart.local${value.logo_primary}`} href="#" alt="TeenSmart" />)
+								return(<Image className="logo" src={`http://dev-teensmart-team-orange.pantheonsite.io${value.logo_primary}`} href="#" alt="TeenSmart" />)
 							}
 						})}
 					</Col>

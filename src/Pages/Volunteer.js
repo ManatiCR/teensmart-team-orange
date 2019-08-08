@@ -23,7 +23,7 @@ export default class Volunteer extends React.Component {
 		this.state = {data: null};
 	}
 	componentDidMount() {
-		axios.get('http://teensmart.local/api/teensmart_header?_format=json')
+		axios.get('http://dev-teensmart-team-orange.pantheonsite.io/api/teensmart_header?_format=json')
 			.then(response => {
 				this.setState({blocks: response.data})
 			})

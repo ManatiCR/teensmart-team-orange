@@ -11,7 +11,7 @@ export default class ApplyNow extends React.Component {
 	}
 
 	componentDidMount() {
-		axios.get('http://teensmart.local/api/teensmart_header?_format=json')
+		axios.get('http://dev-teensmart-team-orange.pantheonsite.io/api/teensmart_header?_format=json')
 			.then(response => {
 				this.setState({apply: response.data})
 			})

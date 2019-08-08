@@ -10,7 +10,7 @@ export default class Types extends React.Component {
 	}
 
 	componentDidMount() {
-		axios.get('http://teensmart.local/api/types?_format=json')
+		axios.get('http://dev-teensmart-team-orange.pantheonsite.io/api/types?_format=json')
 			.then(response => {
 				this.setState({types: response.data})
 			})

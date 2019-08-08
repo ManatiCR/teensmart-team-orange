@@ -17,7 +17,7 @@ export default class Navigation extends React.Component {
 	}
 
 	componentDidMount() {
-		axios.get('http://teensmart.local/api/teensmart-navigation?_format=json')
+		axios.get('http://dev-teensmart-team-orange.pantheonsite.io/api/teensmart-navigation?_format=json')
 			.then(response => {
 				this.setState({navigation: response.data})
 			})

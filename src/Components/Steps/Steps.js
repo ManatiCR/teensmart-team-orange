@@ -17,7 +17,7 @@ export default class Steps extends React.Component {
 	}
 
 	componentDidMount() {
-		axios.get('http://teensmart.local/api/step?_format=json')
+		axios.get('http://dev-teensmart-team-orange.pantheonsite.io/api/step?_format=json')
 			.then(response => {
 				this.setState({steps: response.data})
 			})

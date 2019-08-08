@@ -10,7 +10,7 @@ export default class Benefits extends React.Component {
 	}
 
 	componentDidMount() {
-		axios.get('http://teensmart.local/api/benefit?_format=json')
+		axios.get('http://dev-teensmart-team-orange.pantheonsite.io/api/benefit?_format=json')
 			.then(response => {
 				this.setState({benefits: response.data})
 			})
@@ -29,7 +29,7 @@ export default class Benefits extends React.Component {
 					<Row>
 						{ benefits && benefits.map((value, index) => (
 							<Card key={index} className="benefit">
-								<Image variant="top" roundedCircle src={'http://teensmart.local' + value.field_benefiticon} className="benefit-image" />
+								<Image variant="top" roundedCircle src={'http://dev-teensmart-team-orange.pantheonsite.io' + value.field_benefiticon} className="benefit-image" />
 								<Card.Body>
 									<Card.Title className="benefit-title">{value.field_benefitext}</Card.Title>
 								</Card.Body>

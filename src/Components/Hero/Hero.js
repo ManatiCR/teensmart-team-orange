@@ -14,7 +14,7 @@ export default class Hero extends React.Component {
 	}
 
 	componentDidMount() {
-		axios.get('http://teensmart.local/api/hero?_format=json')
+		axios.get('http://dev-teensmart-team-orange.pantheonsite.io/api/hero?_format=json')
 			.then(response => {
 				this.setState({ hero: response.data })
 			})
@@ -36,7 +36,7 @@ export default class Hero extends React.Component {
 									<p className="text-right font-weight-bold"><a href={value.field_herolink}>Vinicio, featured volunteer</a></p>
 								</Col>
 								<Col sm={6} className="jumbotron-photo m-auto" >
-									<img src={'http://teensmart.local' + value.field_heroimage} alt="Jumbotron" style={{ maxWidth: '100%' }}></img>
+									<img src={'http://dev-teensmart-team-orange.pantheonsite.io' + value.field_heroimage} alt="Jumbotron" style={{ maxWidth: '100%' }}></img>
 								</Col>
 							</Row>
 						);
